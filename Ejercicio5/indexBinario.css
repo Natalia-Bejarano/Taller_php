@@ -1,0 +1,47 @@
+body {
+    background-color: #5c929b;
+}
+body > h1 {
+    background-color: #07292f;
+    width: 100%;
+    margin-top: 0%;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+body > h1:hover {
+    background-color: #3e5e63;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.8s;
+}
+body > h2 {
+    color: #06191c;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+form > div {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+button {
+    color: #ffffff;
+    background-color: #3e5e63;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    color: #07292f;
+    background-color: #5c929b;
+    transition: 0.9s;
+    transform: scale(0.8);
+
+}
