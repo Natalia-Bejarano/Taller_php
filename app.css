@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -27,8 +27,6 @@ h1 {
     color: #2c3e50;
     margin-bottom: 10px;
 }
-
-/* Lista de ejercicios */
 .exercise-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
