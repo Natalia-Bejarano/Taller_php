@@ -5,7 +5,6 @@ body {
     padding: 20px;
     color: #333;
 }
-
 .contenedor {
     max-width: 800px;
     margin: 0 auto;
@@ -14,21 +13,17 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
 h1, h2 {
     color: #2c3e50;
 }
-
 .grupo-form {
     margin-bottom: 15px;
 }
-
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
-
 input[type="text"] {
     width: 100%;
     padding: 8px;
@@ -36,7 +31,6 @@ input[type="text"] {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 button {
     background-color: #3498db;
     color: white;
@@ -46,11 +40,9 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
-
 button:hover {
     background-color: #2980b9;
 }
-
 .error {
     color: #e74c3c;
     background-color: #fadbd8;
@@ -58,19 +50,16 @@ button:hover {
     border-radius: 4px;
     margin: 10px 0;
 }
-
 .arbol-container {
     margin-top: 20px;
     overflow-x: auto;
 }
-
 .nodo {
     display: inline-block;
     text-align: center;
     margin: 10px;
     position: relative;
 }
-
 .valor {
     background-color: #3498db;
     color: white;
@@ -81,20 +70,17 @@ button:hover {
     display: inline-block;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
 .ramas {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     position: relative;
 }
-
 .rama {
     display: inline-block;
     position: relative;
     margin: 0 15px;
 }
-
 .rama::before {
     content: '';
     position: absolute;
@@ -105,15 +91,12 @@ button:hover {
     background-color: #95a5a6;
     transform: translateX(-50%);
 }
-
 .rama.izq {
     margin-right: 30px;
 }
-
 .rama.der {
     margin-left: 30px;
 }
-
 .nodo .nodo {
     margin-top: 40px;
 }
