@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+</head>
+<body>
+    <h1>Fibonacci y Factorial</h1>
+    <form action="calcular.php" method="post">
+        <div>
+            <label>Ingrese un número:</label>
+            <input name="numero" type="number" min="0" required>
+        </div>
+        <div>
+            <label>Seleccione la operación:</label>
+            <select name="operacion">
+                <option value="fibonacci">Sucesión Fibonacci</option>
+                <option value="factorial">Factorial</option>
+            </select>
+        </div>
+        <button type="submit">Calcular</button>
+    </form>
+
+    <h2>Calcular Promedio, Media y Moda</h2>
+    <form action="calcular.php" method="post">
+        <div>
+            <label>Ingrese una lista de números separados por comas:</label>
+            <input name="numeros" type="text" placeholder="Ejemplo: 4.5, 3, 8.2, 7" required>
+        </div>
+        <input type="hidden" name="operacion" value="estadisticas">
+        <button type="submit">Calcular Estadísticas</button>
+    </form>
+</body>
+</html>
